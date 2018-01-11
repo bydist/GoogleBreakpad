@@ -1,5 +1,5 @@
 set(package GoogleBreakpad)
-set(version 42.0-unowhy)
+set(version 42.0-1)
 
 byd__package__info(${package}
     MAINTAINER_NAME "David Callu"
@@ -10,5 +10,5 @@ byd__package__info(${package}
 
 byd__package__download_info(${package}
     GIT_REPOSITORY http://github.com/ledocc/breakpad.git
-    GIT_TAG unowhy
+    GIT_TAG ${version}
 )
