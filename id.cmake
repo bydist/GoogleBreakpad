@@ -1,5 +1,5 @@
 set(package GoogleBreakpad)
-set(version 42.0-1)
+set(version 64.0)
 
 byd__package__info(${package}
     MAINTAINER_NAME "David Callu"
